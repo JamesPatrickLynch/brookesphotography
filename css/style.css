@@ -15,6 +15,7 @@ body {
 p {
 	font-size: .95em;
 	margin-bottom: 1.8em;
+	color: black;
 }
 
 h2,
@@ -49,18 +50,18 @@ img {
 
 .main-nav {
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .name a,
 .main-nav a {
 	text-align: center;
 	display: block;
-	padding: 10px 15px;
+	padding: .25em .25em;
 }
 
 .main-nav a {
 	font-size: .95em;
-	color: #32b9f8;
 	text-transform: uppercase;
 }
 
@@ -78,13 +79,15 @@ img {
 .banner,
 .main-footer {
 	text-align: center;
+	background: #ffdd22;
+	color: black;
 }
 
 .banner {
 	color: #fff;
-	background: #32b9f8;
+	background: #ffdd22;
 	padding: 3.2em 0;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
 .col {
@@ -93,7 +96,7 @@ img {
 }
 
 .main-footer {
-	background: #32b9f8;
+	background: #ff	dd22;
 	padding: 2em 0;
 	margin-top: 30px;
 }	
